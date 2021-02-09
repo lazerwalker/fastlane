@@ -71,7 +71,7 @@ module Produce
                                      short_option: "-m",
                                      env_name: "PRODUCE_LANGUAGE",
                                      description: "Primary Language (e.g. 'en-US', 'fr-FR')",
-                                     default_value: "English",
+                                     default_value: "en-US",
                                      verify_block: proc do |language|
                                      end),
         FastlaneCore::ConfigItem.new(key: :company_name,
